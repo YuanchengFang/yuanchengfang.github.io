@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "name": "方元成",
+    "label": "学生",
+    "image": "",
+    "email": "ycfangcs@icloud.com",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "杭州",
+      "countryCode": "CN",
+      "region": "浙江"
+    },
+    "profiles": []
+  },
+  "interests": [
+    {
+      "name": "人工智能",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "大语言模型应用",
+        "AI智能体",
+        "自动数据标注"
+      ]
+    },
+    {
+      "name": "学科交叉",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "AI+社会科学",
+        "多智能体社会"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "浙江大学，杭州，中国",
+      "location": "杭州，中国",
+      "url": "http://www.zju.edu.cn/",
+      "area": "计算机科学与技术",
+      "studyType": "硕士",
+      "startDate": "2022-09-01",
+      "endDate": "2025-06-01"
+    },
+    {
+      "institution": "中国人民大学，北京，中国",
+      "location": "北京，中国",
+      "url": "https://www.ruc.edu.cn/",
+      "area": "信息资源管理",
+      "studyType": "本科",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-01"
+    }
+  ],
+  "work": [],
+  "volunteer": [],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
+  "languages": [
+    {
+      "language": "中文",
+      "fluency": "母语",
+      "icon": ""
+    },
+    {
+      "language": "英语",
+      "fluency": "流利",
+      "icon": ""
+    },
+    {
+      "language": "日语",
+      "fluency": "中级",
+      "icon": ""
+    }
+  ],
+  "references": [],
+  "projects": []
+}

@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Yuancheng Fang # the website title (if blank, full name will be used instead)
+first_name: Yuancheng
+middle_name: 
+last_name: Fang
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🦊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://yuanchengfang.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -148,7 +148,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -187,7 +187,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/en-us/about_einstein.md
-  - _pages/pt-br/about_einstein.md
+  - _pages/zh-cn/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -341,7 +341,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br"]
+languages: ["en-us", "zh-cn"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
@@ -378,6 +378,15 @@ imagemagick:
 #   Options: "auto", "eager", "lazy"
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
 lazy_loading_images: true # enables lazy loading of images (recommended)
+
+# -----------------------------------------------------------------------------
+# Fade In Animation of Elements
+# -----------------------------------------------------------------------------
+
+animation:
+  delay: 90ms # delay before each consecutive animation starts
+  enabled: true # enables fade in animation of elements
+  max_elements: 20 # maximum number of elements to animate (set to -1 or delete it to animate all elements)
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -626,21 +635,21 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jekyll_get_json:
+#   - data: resume_en-us
+#     json: assets/json/resume_en-us.json # it can also be an url
+#   - data: resume_zh-cn
+#     json: assets/json/resume_zh-cn.json # it can also be an url
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references

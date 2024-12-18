@@ -3,9 +3,9 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: al-folio in english
-description: a simple whitespace theme for academics
-nav: true
+# blog_name: Fang's Blog
+# description:
+nav: false
 nav_order: 1
 pagination:
   enabled: true
