@@ -7,7 +7,7 @@ subtitle: # <a href='#'>隶属机构</a>。地址。联系方式。座右铭。�
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: true # 将图片裁剪成圆形
   # more_info: >
   #   <p>555 您的办公电话</p>
