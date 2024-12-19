@@ -21,9 +21,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <!-- 需要找到英语原文 -->
-“We are in the presence of something which our minds cannot grasp, but we can only understand in the most primitive form. It is this recognition and this feeling that constitutes the true religious attitude. In this sense, and only in this sense, I am a deeply religious man.” 
-
-_Albert Einstein_
+“We are in the presence of something which our minds cannot grasp, but we can only understand in the most primitive form. It is this recognition and this feeling that constitutes the true religious attitude. In this sense, and only in this sense, I am a deeply religious man.”  _Albert Einstein_
 
 Under construction...
 
