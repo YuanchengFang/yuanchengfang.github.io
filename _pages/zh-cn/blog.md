@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: blog
 # blog_name: Fang's Blog
-# description: 
+# description:
 nav: false
 nav_order: 1
 pagination:

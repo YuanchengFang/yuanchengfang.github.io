@@ -21,19 +21,12 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Large Language Models Applications",
-        "AI Agents",
-        "Automatic Data Annotation"
-      ]
+      "keywords": ["Large Language Models Applications", "AI Agents", "Automatic Data Annotation"]
     },
     {
       "name": "Interdisciplinary Studies",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "AI for Social Science",
-        "Multi-agent Societies"
-      ]
+      "keywords": ["AI for Social Science", "Multi-agent Societies"]
     }
   ],
   "education": [

@@ -4,7 +4,7 @@
 
 title: Yuancheng Fang # the website title (if blank, full name will be used instead)
 first_name: Yuancheng
-middle_name: 
+middle_name:
 last_name: Fang
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: 🦊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -630,7 +630,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------

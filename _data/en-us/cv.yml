@@ -8,29 +8,28 @@
     - name: Languages
       value: Chinese, English, Janpanese
 
-- title: Research Interests  # 研究兴趣
+- title: Research Interests # 研究兴趣
   type: nested_list
   contents:
-    - title: Artificial Intelligence  # 人工智能
+    - title: Artificial Intelligence # 人工智能
       items:
-        - Large Language Model Applications  # 大语言模型应用
-        - Automatic Data Annotation  # 自动数据标注
-        - AI Agents  # AI智能体
-    - title: Interdisciplinary Studies  # 学科交叉
+        - Large Language Model Applications # 大语言模型应用
+        - Automatic Data Annotation # 自动数据标注
+        - AI Agents # AI智能体
+    - title: Interdisciplinary Studies # 学科交叉
       items:
-        - AI for Social Science  # AI for Social Science
-        - Multi-agent Societies  # 多智能体社会
+        - AI for Social Science # AI for Social Science
+        - Multi-agent Societies # 多智能体社会
 
-- title: Education  # 教育经历
+- title: Education # 教育经历
   type: time_table
   contents:
-    - title: MS in Computer Science  # 硕士 计算机科学与技术
-      institution: Zhejiang University, Hangzhou, China  # 浙江大学, 杭州, 中国
+    - title: MS in Computer Science # 硕士 计算机科学与技术
+      institution: Zhejiang University, Hangzhou, China # 浙江大学, 杭州, 中国
       year: 2025
-    - title: BS in Information Resources Management  # 本科 信息资源管理
-      institution: Renmin University of China, Beijing, China  # 中国人民大学, 北京, 中国
+    - title: BS in Information Resources Management # 本科 信息资源管理
+      institution: Renmin University of China, Beijing, China # 中国人民大学, 北京, 中国
       year: 2022
-
 # - title: Experience
 #   type: time_table
 #   contents:

@@ -20,19 +20,12 @@
     {
       "name": "人工智能",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "大语言模型应用",
-        "AI智能体",
-        "自动数据标注"
-      ]
+      "keywords": ["大语言模型应用", "AI智能体", "自动数据标注"]
     },
     {
       "name": "学科交叉",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "AI+社会科学",
-        "多智能体社会"
-      ]
+      "keywords": ["AI+社会科学", "多智能体社会"]
     }
   ],
   "education": [
