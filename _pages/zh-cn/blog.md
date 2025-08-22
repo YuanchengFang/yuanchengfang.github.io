@@ -2,10 +2,10 @@
 page_id: blog
 layout: default
 permalink: /blog/
-title: blog
+title: 博客
 # blog_name: Fang's Blog
 # description:
-nav: false
+nav: true
 nav_order: 1
 pagination:
   enabled: true
@@ -38,7 +38,7 @@ pagination:
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ site.data[site.active_lang].strings.tags[tag] }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -49,7 +49,7 @@ pagination:
       {% endif %}
       {% for category in site.display_categories %}
         <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ site.data[site.active_lang].strings.categories[category] }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -87,7 +87,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      Leitura de {{ read_time }} min &nbsp; &middot; &nbsp;
+                      阅读时间 {{ read_time }} 分钟 &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -144,7 +144,7 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        Leitura de {{ read_time }} min &nbsp; &middot; &nbsp;
+        阅读时长 {{ read_time }} 分钟 &nbsp; &middot; &nbsp;
         {% include date_format.liquid format="long" date=post.date %}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
@@ -158,7 +158,7 @@ pagination:
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+              <i class="fa-solid fa-hashtag fa-sm"></i> {{ site.data[site.active_lang].strings.tags[tag] }}</a> &nbsp;
               {% endfor %}
           {% endif %}
 
@@ -166,7 +166,7 @@ pagination:
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+              <i class="fa-solid fa-tag fa-sm"></i> {{ site.data[site.active_lang].strings.categories[category] }}</a> &nbsp;
               {% endfor %}
           {% endif %}
     </p>

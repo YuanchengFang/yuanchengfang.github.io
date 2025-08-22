@@ -1,7 +1,7 @@
 ---
 page_id: project_1
 layout: page
-title: project 1
+title: project example
 description: with background image
 img: assets/img/12.jpg
 importance: 1

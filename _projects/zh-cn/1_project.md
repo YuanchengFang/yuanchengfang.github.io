@@ -1,24 +1,24 @@
 ---
-page_id: project_3
+page_id: project_1
 layout: page
-title: projeto 3 com um nome bem longo
-description: um projeto que redireciona pra outro website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: 项目示例
+description: 带有背景图片
+img: assets/img/12.jpg
+importance: 1
 category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+每个项目都可以有一个漂亮的功能展示页面。  
+你可以很方便地在一个灵活的三列网格中插入图片。  
+你的照片可以是 1/3、2/3，或者占满整行。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+如果你想在作品集页面里给项目加一个背景图，只需要在 front matter 中添加 `img` 标签即可，例如：
 
     ---
     layout: page
     title: project
-    description: a project with a background image
+    description: 一个带背景图的项目
     img: /assets/img/12.jpg
     ---
 
@@ -34,7 +34,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    很容易就能给照片加上说明。左边，一条公路穿过隧道；中间，落叶在文艺摄影中随风飘落；右边，在另一场文艺摄影里，一个伐木工抓着一把松针。
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,12 +42,12 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    这张图片同样可以有说明，就像变魔术一样。
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+你也可以在图片行之间加入普通文字，甚至是引用 {% cite einstein1950meaning %}。  
+比如你想在贴出剩余的图片前，先写一点关于你项目的介绍。  
+你可以描写自己为项目付出的辛劳、汗水，甚至是“流血”，然后……在下一行图片里揭示它的荣耀。
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -58,13 +58,13 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    你也可以像这样做成艺术感十足的 2/3 + 1/3 图片组合。
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+代码其实很简单。  
+只需把图片包裹在 `<div class="col-sm">` 里，再放到 `<div class="row">` 里面（更多信息可以参考 <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> 系统）。  
+要让图片自适应，可以为它们添加 `img-fluid` 类；要让边角圆润、带阴影，可以使用 `rounded` 和 `z-depth-1` 类。  
+下面就是上面最后一行图片的代码：
 
 {% raw %}
 

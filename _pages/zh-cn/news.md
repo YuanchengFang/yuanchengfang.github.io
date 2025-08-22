@@ -1,7 +1,7 @@
 ---
 page_id: news
 layout: page
-title: novidades
+title: 最近更新
 permalink: /news/
 ---
 

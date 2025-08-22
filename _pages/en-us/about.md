@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -15,14 +15,14 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: false # includes a list of news items
-latest_posts: false # includes a list of the newest posts
+latest_posts: true # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 <!-- 需要找到英语原文 -->
 
-“We are in the presence of something which our minds cannot grasp, but we can only understand in the most primitive form. It is this recognition and this feeling that constitutes the true religious attitude. In this sense, and only in this sense, I am a deeply religious man.” _Albert Einstein_
+<!-- “We are in the presence of something which our minds cannot grasp, but we can only understand in the most primitive form. It is this recognition and this feeling that constitutes the true religious attitude. In this sense, and only in this sense, I am a deeply religious man.” _Albert Einstein_ -->
 
 Under construction...
 

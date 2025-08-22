@@ -1,11 +1,11 @@
 ---
 page_id: projects
 layout: page
-title: projetos
+title: 项目
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: 一个不断增长的有趣项目集合。
 nav: false
-# nav_order: 3
+nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---

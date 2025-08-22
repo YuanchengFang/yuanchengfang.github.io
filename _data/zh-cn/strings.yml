@@ -140,3 +140,18 @@ search:
   theme: 主题
 selected_publications: 选定的出版物
 site_description: 一个简洁的学术主题，基于 [*folio](https://github.com/bogoli/-folio) 设计。
+
+# TODO: tags
+tags:
+  formatting: 格式
+  images: 图片
+  links: 链接
+  math: 数学
+  code: 代码
+  blockquotes: 摘录
+  comments: 评论
+
+# TODO: categories
+categories:
+  external-services: 外部服务
+  sample-posts: 示例帖子

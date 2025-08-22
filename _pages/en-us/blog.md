@@ -5,7 +5,7 @@ permalink: /blog/
 title: blog
 # blog_name: Fang's Blog
 # description:
-nav: false
+nav: true
 nav_order: 1
 pagination:
   enabled: true
