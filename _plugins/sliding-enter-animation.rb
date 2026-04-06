@@ -17,7 +17,7 @@ Jekyll::Hooks.register([:pages, :posts], :post_render) do |page|
                 if config.key?("selector")
                     selector = config["selector"]
                 else
-                    selector = "audio, blockquote, div.card, div.highlighter-rouge, div.news, div.repositories, div.row, div.social, div.tag-category-list, figure, h2, h3, p, tr, video"
+                    selector = "audio, blockquote, div.card, div.highlighter-rouge, div.news, div.repositories, div.row, div.social, div.tag-category-list, figure, h2, h3, h4, ul, li, p, tr, video"
                 end
 
                 if config.key?("max_elements")

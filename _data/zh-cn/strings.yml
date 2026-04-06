@@ -150,8 +150,14 @@ tags:
   code: 代码
   blockquotes: 摘录
   comments: 评论
+  bayes: 贝叶斯
+  probability: 概率
+  statistics: 统计
+  inference: 推断
+  machine-learning: 机器学习
 
 # TODO: categories
 categories:
   external-services: 外部服务
   sample-posts: 示例帖子
+  statistics: 统计学

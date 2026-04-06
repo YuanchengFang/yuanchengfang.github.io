@@ -148,8 +148,14 @@ tags:
   code: code
   blockquotes: blockquotes
   comments: comments
+  bayes: bayes
+  probability: probability
+  statistics: statistics
+  inference: inference
+  machine-learning: machine-learning
 
 # TODO: categories
 categories:
   external-services: external-services
   sample-posts: sample-posts
+  statistics: statistics
